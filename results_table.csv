@@ -1,0 +1,26 @@
+dataset,condition,MLP_mean,MLP_std,KAN_mean,KAN_std,FreqKAN_mean,FreqKAN_std,winner
+adult,clean,0.1524,0.0056,0.1489,0.0053,0.1519,0.0042,KAN
+adult,noise 0.1,0.1550,0.0056,0.1503,0.0051,0.1542,0.0050,KAN
+adult,noise 0.25,0.1632,0.0044,0.1591,0.0066,0.1604,0.0076,KAN
+adult,noise 0.5,0.1838,0.0045,0.1873,0.0050,0.1835,0.0103,FreqKAN
+adult,dist. shift,0.2950,0.0125,0.2822,0.0017,0.3002,0.0108,KAN
+breast_cancer,clean,0.0316,0.0133,0.0614,0.0175,0.0456,0.0157,MLP
+breast_cancer,noise 0.1,0.0333,0.0130,0.0737,0.0118,0.0421,0.0169,MLP
+breast_cancer,noise 0.25,0.0386,0.0159,0.1123,0.0235,0.0596,0.0180,MLP
+breast_cancer,noise 0.5,0.0544,0.0190,0.1772,0.0243,0.0807,0.0348,MLP
+breast_cancer,dist. shift,0.0690,0.0151,0.3789,0.2935,0.1088,0.0205,MLP
+california_housing,clean,0.4546,0.0077,0.5377,0.0072,0.4730,0.0103,MLP
+california_housing,noise 0.1,0.8182,0.1198,0.6064,0.0115,0.6783,0.0437,KAN
+california_housing,noise 0.25,1.9181,0.4708,0.7606,0.0105,0.9216,0.0491,KAN
+california_housing,noise 0.5,4.0381,1.1324,0.9345,0.0114,1.0479,0.0487,KAN
+california_housing,dist. shift,0.7214,0.0458,0.7120,0.0359,0.6552,0.0421,FreqKAN
+covertype,clean,0.2245,0.0055,0.2345,0.0030,0.2624,0.0033,MLP
+covertype,noise 0.1,0.2359,0.0090,0.2506,0.0077,0.2731,0.0039,MLP
+covertype,noise 0.25,0.2811,0.0096,0.3153,0.0119,0.3172,0.0081,MLP
+covertype,noise 0.5,0.3631,0.0110,0.4188,0.0275,0.4211,0.0339,MLP
+covertype,dist. shift,0.2826,0.0299,0.2798,0.0159,0.2932,0.0159,KAN
+wine,clean,0.0056,0.0124,0.0222,0.0232,0.0444,0.0248,MLP
+wine,noise 0.1,0.0056,0.0124,0.0167,0.0152,0.0389,0.0152,MLP
+wine,noise 0.25,0.0167,0.0152,0.0333,0.0124,0.0333,0.0304,MLP
+wine,noise 0.5,0.0556,0.0196,0.0778,0.0456,0.0722,0.0505,MLP
+wine,dist. shift,0.0370,0.0000,0.0519,0.0331,0.0519,0.0442,MLP
